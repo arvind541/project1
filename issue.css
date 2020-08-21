@@ -1,0 +1,141 @@
+body {
+  background-color: lightgrey;
+}
+h1 {
+  padding: 20px; 
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+}
+h2 {
+  padding: 20px;
+  border-radius: 10px;
+  width: 180px;
+  height: 700px;
+  background-color: #003366;
+}
+#search {
+    border: 0px none;
+    -moz-box-shadow: none;
+    outline: none;
+    background-color: white;
+}
+
+input {
+  background-color: black;
+  color: black;
+  height: 20px;
+  font-size: 20px;
+  padding-right:90px;
+}
+side-nav {
+  float: left;
+  width: 200px;
+  height: 600px; /* only for demonstration, should be removed */
+  background-color:#1d3557;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Style the list inside the menu */
+side-nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+side-nav ul button {
+  border: none; /* Remove borders */
+  color: lightgrey; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; 
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color:#1d3557;
+  box-shadow: 0 5PX #e63946;
+
+
+}
+side-nav ul button:hover {
+  background-color: #457b9d;
+}
+
+
+
+div.flex-container {
+  display: flex;
+  background-color: lightgrey;
+  width: 1200px;
+  height: 80px;
+  float: right;
+  border-radius: 20px;
+   
+}
+ div.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+  height: 20px;
+  width: 400px;
+}
+
+div.flex-container1 {
+  display: flex;
+  background-color: lightgrey;
+  width: 1200px;
+  height: 160px;
+  float: right;
+  border-radius: 20px;
+   
+}
+ div.flex-container1 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+  height: 100px;
+  width: 400px;
+}
+
+div.flex-container2 {
+  display: flex;
+  background-color: lightgrey;
+  width: 1200px;
+  height: 160px;
+  float: right;
+  border-radius: 20px;
+   
+}
+ div.flex-container2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+  height: 100px;
+  width: 400px;
+}
+div.flex-container3 {
+  display: flex;
+  background-color: lightgrey;
+  width: 1200px;
+  height: 160px;
+  float: right;
+  border-radius: 20px;
+   
+}
+ div.flex-container3 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+  height: 100px;
+  width: 400px;
+}

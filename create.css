@@ -1,0 +1,373 @@
+body {
+  background-color: lightgrey;
+}
+h1 {
+  padding: 20px; 
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+}
+h2 {
+  padding-left: 300px;
+  padding-right: 300px;
+  border-radius: 10px;
+  width: 100px;
+  height: 700px;
+  background-color: #003366;
+}
+h3 {
+  padding: 20px;
+  background-color: orange;
+  border-radius: 10px;
+  width: 20px;
+  height: 200px;
+}
+#search {
+    border: 0px none;
+    -moz-box-shadow: none;
+    outline: none;
+    background-color: white;
+}
+
+input {
+  background-color: black;
+  color: black;
+  height: 20px;
+  font-size: 20px;
+  padding-right:90px;
+}
+side-nav {
+  float: left;
+  width: 200px;
+  height: 600px; /* only for demonstration, should be removed */
+  background-color:#1d3557;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Style the list inside the menu */
+side-nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+side-nav ul button {
+  border: none; /* Remove borders */
+  color: lightgrey; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; 
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color:#1d3557;
+  box-shadow: 0 5PX #e63946;
+
+
+}
+side-nav ul button:hover {
+  background-color: #457b9d;
+}
+form input.title{
+  background-color: lightgrey;
+  border-radius: 10px;
+  height: 30px;
+      border: 0px none;
+    -moz-box-shadow: none;
+    outline: none;
+    font-weight: bold;
+    padding-left: 20px;
+
+}
+form label.lab-title{
+  padding-left: 120px;
+  font-weight: bold;
+  font-size: 20px;
+}
+form input.title{
+  border-radius: 10px;
+  background-color: grey;
+  color: black;
+}
+form select.type{
+    background-color: grey;
+  border-radius: 10px;
+  height: 30px;
+      border: 0px none;
+    -moz-box-shadow: none;
+    outline: none;
+    padding-left: 200px;
+}
+form label.lab-type{
+  padding-left: 120px;
+  font-weight: bold;
+  font-size: 20px;
+}
+form select.priority{
+  background-color: grey;
+  border-radius: 10px;
+  height: 30px;
+  border: 0px none;
+  -moz-box-shadow: none;
+  outline: none;
+  padding-left: 200px
+}
+form label.lab-priority{
+  padding-left: 95px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+form input.version{
+  background-color: lightgrey;
+  border-radius: 10px;
+  height: 30px;
+      border: 0px none;
+    -moz-box-shadow: none;
+    outline: none;
+    font-weight: bold;
+    padding-left: 80px;
+}
+form label.lab-version{
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+form input.version{
+  border-radius: 10px;
+  background-color: grey;
+  color: black;
+}
+
+form input.components{
+  background-color: lightgrey;
+  border-radius: 10px;
+  height: 30px;
+      border: 0px none;
+    -moz-box-shadow: none;
+    outline: none;
+    font-weight: bold;
+    padding-left: 80px;
+}
+form label.lab-components{
+  padding-left: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+form input.components{
+  border-radius: 10px;
+  background-color: grey;
+  color: black;
+}
+form input.labels{
+  background-color: lightgrey;
+  border-radius: 10px;
+  height: 30px;
+      border: 0px none;
+    -moz-box-shadow: none;
+    outline: none;
+    font-weight: bold;
+    padding-left: 80px;
+}
+form label.lab-labels{
+  padding-left: 100px;
+  font-weight: bold;
+  font-size: 20px;
+}
+form input.labels{
+  border-radius: 10px;
+  background-color: grey;
+  color: black;
+}
+
+form input.sprint{
+  background-color: lightgrey;
+  border-radius: 10px;
+  height: 30px;
+      border: 0px none;
+    -moz-box-shadow: none;
+    outline: none;
+    font-weight: bold;
+    padding-left: 80px;
+}
+form label.lab-sprint{
+  padding-left: 110px;
+  font-weight: bold;
+  font-size: 20px;
+}
+form input.sprint{
+  border-radius: 10px;
+  background-color: grey;
+  color: black;
+}
+
+form input.sp{
+  background-color: lightgrey;
+  border-radius: 10px;
+  height: 30px;
+      border: 0px none;
+    -moz-box-shadow: none;
+    outline: none;
+    font-weight: bold;
+    padding-left: 80px;
+}
+form label.lab-sp{
+  padding-left: 60px;
+  font-weight: bold;
+  font-size: 20px;
+}
+form input.sp{
+  border-radius: 10px;
+  background-color: grey;
+  color: black;
+}
+
+form input.status{
+  background-color: lightgrey;
+  border-radius: 10px;
+  height: 30px;
+      border: 0px none;
+    -moz-box-shadow: none;
+    outline: none;
+    font-weight: bold;
+    padding-left: 80px;
+}
+form label.lab-status{
+  padding-left: 110px;
+  font-weight: bold;
+  font-size: 20px;
+}
+form input.status{
+  border-radius: 10px;
+  background-color: grey;
+  color: black;
+}
+
+form input.res{
+  background-color: lightgrey;
+  border-radius: 10px;
+  height: 30px;
+      border: 0px none;
+    -moz-box-shadow: none;
+    outline: none;
+    font-weight: bold;
+    padding-left: 80px;
+}
+form label.lab-res{
+  padding-left: 70px;
+  font-weight: bold;
+  font-size: 20px;
+}
+form input.res{
+  border-radius: 10px;
+  background-color: grey;
+  color: black;
+}
+
+form input.dis{
+  background-color: lightgrey;
+  border-radius: 10px;
+  height: 30px;
+      border: 0px none;
+    -moz-box-shadow: none;
+    outline: none;
+    font-weight: bold;
+    padding-left: 80px;
+}
+form label.lab-dis{
+  padding-left: 65px;
+  font-weight: bold;
+  font-size: 20px;
+}
+form input.dis{
+  border-radius: 10px;
+  background-color: grey;
+  color: black;
+}
+
+form select.fix-v{
+  background-color: grey;
+  border-radius: 10px;
+  height: 30px;
+  border: 0px none;
+  -moz-box-shadow: none;
+  outline: none;
+  padding-left: 200px
+}
+form label.lab-fix-v{
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+form select.asign{
+  background-color: grey;
+  border-radius: 10px;
+  height: 30px;
+  border: 0px none;
+  -moz-box-shadow: none;
+  outline: none;
+  padding-left: 200px
+}
+form label.asign{
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+form label.lab-asign{
+  padding-left: 95px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+form button.btn {
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 150px;
+  border-radius: 10px;
+}
+form button.btn1 {background-color: #1d3557;
+  margin: 0;
+  position: absolute;
+  right: 30%;
+  }
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
